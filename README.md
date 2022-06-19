@@ -32,6 +32,31 @@
 $ npm install
 ```
 
+## DB migration
+
+```bash
+# To create and start db
+$ npm run start:dev:db
+
+# To create empty migration 
+$ npm run typeorm:migration:create
+
+# To generate migration from entity
+$ npm run typeorm:migration:generate
+
+# To run migration
+$ npm run typeorm:migration:run
+
+# To run migration status
+$ npm run typeorm:migration:show
+
+# To revert last migration
+$ npm run typeorm:migration:revert
+
+# To create seed data
+$ npm run start:dev:db:seed
+```
+
 ## Running the app
 
 ```bash
